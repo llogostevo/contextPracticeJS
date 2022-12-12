@@ -21,9 +21,6 @@ class PartyPlanner{
 			}
 
 		}
-
-		
-
 	}
 	}
 
