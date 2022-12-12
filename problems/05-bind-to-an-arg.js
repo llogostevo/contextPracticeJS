@@ -13,6 +13,8 @@ function bindToAnArg2(func, arg) {
 
 // solved problem using this
 function bindToAnArg(func, arg) {
+  // bind returns a function
+  // therefore calling the function on itself with the argument bound to this works. ß
   return func.bind(this, arg);
 }
 
