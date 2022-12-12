@@ -13,8 +13,6 @@ const dog = new Animal(1);
 const cat = new Animal(5);
 
 function boundFuncTimer(obj, func, delay) {
-  // Your code here
-
   setTimeout(func.bind(obj), delay)
 }
 
